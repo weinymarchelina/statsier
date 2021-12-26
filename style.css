@@ -39,11 +39,12 @@ textarea {
   resize: vertical;
   padding: 1.2vw;
   margin: calc(1rem + 1.5vw);
+  font-size: calc(0.55rem + 0.75vw);
 }
 
 .raw-data {
   width: calc(15rem + 23vw);
-  font-size: calc(0.55rem + 0.5vw);
+  font-size: calc(0.55rem + 0.75vw);
   text-align: left;
 }
 
@@ -59,8 +60,10 @@ textarea {
 
 button {
   cursor: pointer;
+  font-weight: bold;
   padding: calc(0.25rem + 0.5vw);
-  width: calc(4.5rem + 2vw);
+  width: calc(5rem + 5vw);
+  font-size: calc(1rem + 0.2vw);
   border: none;
   background-color: black;
   color: white;
