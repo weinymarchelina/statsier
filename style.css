@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: url("repeated-square.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: calc(1.2rem + 1.2vw);
+  padding-top: calc(1rem + 2.5vw);
+}
+
+nav {
+  display: flex;
+  background-color: rgb(102, 102, 106);
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+  width: 100%;
+  padding: 0 calc(1rem + 2vw);
+}
+
+img {
+  width: calc(35% - 18.5vw + 1rem);
+}
+
+textarea {
+  width: calc(15rem + 18.5vw);
+  min-width: 5rem;
+  align-self: center;
+  resize: vertical;
+  padding: 1.2vw;
+  margin: calc(1rem + 1.5vw);
+}
+
+.raw-data {
+  width: calc(15rem + 18.5vw);
+  font-size: calc(0.55rem + 0.5vw);
+  text-align: left;
+}
+
+.container {
+  padding-bottom: calc(1rem + 2.5vw);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+  padding: calc(0.25rem + 0.5vw);
+  width: calc(4.5rem + 2vw);
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 1vw;
+  text-align: center;
+  transition: 250ms ease;
+}
+
+button:hover {
+  background-color: rgb(102, 102, 106);
+  color: #eeeeee;
+}
+
+table {
+  margin: calc(1rem + 2vw) calc(1rem + 1vw);
+  padding: calc(1rem + 1vw);
+  width: calc(15rem + 18.5vw);
+  border-collapse: collapse;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #cccccc;
+  color: #3a3a3a;
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(155, 159, 163);
+  color: #3a3a3a;
+}
+
+tr:first-child {
+  background-color: rgb(102, 102, 106);
+  color: white;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  font-size: calc(0.7rem + 0.25vw);
+  padding: calc(0.25rem + 0.25vw);
+}
