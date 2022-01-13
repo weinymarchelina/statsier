@@ -168,6 +168,8 @@ const displayTable = (arr) => {
 };
 
 const getTable = () => {
+  waysBox.textContent = "";
+
   const newTable = document.querySelector("table");
   newTable.textContent = "";
 
@@ -193,6 +195,8 @@ const getTable = () => {
     text.textContent = str;
     waysBox.appendChild(text);
   });
+
+  ways.splice(0, ways.length);
 };
 
 tableBtn.addEventListener("click", getTable);
