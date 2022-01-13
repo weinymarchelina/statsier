@@ -106,3 +106,17 @@ th {
   font-size: calc(0.7rem + 0.25vw);
   padding: calc(0.25rem + 0.25vw);
 }
+
+.ways {
+  margin: calc(1rem + 2vw) calc(1rem + 1vw);
+  width: calc(50ch + 1vw);
+  font-size: calc(0.55rem + 0.75vw);
+  text-align: left;
+  white-space: pre-line;
+}
+
+.ways p + p {
+  border-top: calc(0.05rem + 0.1vw) solid #202020;
+  margin-top: calc(1rem + 0.5vw);
+  padding-top: calc(1rem + 0.5vw);
+}
